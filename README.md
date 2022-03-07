@@ -46,10 +46,11 @@ pip install pipwin
 pipwin install numpy
 pipwin install pandas
 pipwin install shapely
-pipwin install gdal
+# pipwin install gdal 
 pipwin install fiona
 pipwin install pyproj
 pipwin install six
 pipwin install rtree
 pipwin install geopandas
-```
+``` 
+##### gdal Instead to use: https://download.lfd.uci.edu/pythonlibs/x6hvwk7i/GDAL-2.4.1-cp37-cp37m-win_amd64.whlpip

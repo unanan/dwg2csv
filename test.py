@@ -30,7 +30,7 @@ def pline(pts):
         if s: s += ' '
         s += "'(%0.15f %0.15f)" % (p[0], p[1])
     res = '(setq o (command "pline" %s ))' % s
-    print res
+    print(res)
     return res
 #def pline(pts):
 
