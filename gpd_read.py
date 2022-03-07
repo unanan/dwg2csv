@@ -1,7 +1,7 @@
 import geopandas as gpd
 
-dwg_1_1_path = r"1-1.dwg"
-dwg_C1_1_path = r"C1-1.dwg"
+dwg_1_1_path = r"resources\1-1.dwg"
+dwg_C1_1_path = r"resources\C1-1.dwg"
 
 shape= gpd.read_file(dwg_1_1_path)
 shape.head()
